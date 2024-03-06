@@ -1,6 +1,6 @@
 use std::{
     fs::File,
-    io::{BufReader, BufWriter, Write},
+    io::{BufReader, BufWriter, Write}, time::Instant,
 };
 
 use ff::Field;
@@ -26,6 +26,7 @@ use halo2_proofs::{
 };
 use halo2curves::bn256::{Bn256, Fr, G1Affine};
 use rand_core::OsRng;
+use dotenv::dotenv;
 
 #[derive(Clone, Copy)]
 struct StandardPlonkConfig {
@@ -130,9 +131,13 @@ impl Circuit<Fr> for StandardPlonk {
 }
 
 fn main() {
-    let k = 4;
+    let k = 26;
+    // dotenv().ok();
     let circuit = StandardPlonk(Fr::random(OsRng));
     let params = ParamsKZG::<Bn256>::setup(k, OsRng);
+
+    let instant: Instant = Instant::now();
+
     let vk = keygen_vk(&params, &circuit).expect("vk should not fail");
     let pk = keygen_pk(&params, vk, &circuit).expect("pk should not fail");
 
@@ -191,4 +196,6 @@ fn main() {
         params.n()
     )
     .is_ok());
+    println!("time:{}",instant.elapsed().as_millis());
+
 }
