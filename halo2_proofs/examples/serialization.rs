@@ -130,7 +130,8 @@ impl Circuit<Fr> for StandardPlonk {
 }
 
 fn main() {
-    let k = 4;
+    let k = 26;
+    let start_time = std::time::Instant::now();
     let circuit = StandardPlonk(Fr::random(OsRng));
     let params = ParamsKZG::<Bn256>::setup(k, OsRng);
     let vk = keygen_vk(&params, &circuit).expect("vk should not fail");
@@ -191,4 +192,5 @@ fn main() {
         params.n()
     )
     .is_ok());
+    println!("Time: {:?}", start_time.elapsed());
 }

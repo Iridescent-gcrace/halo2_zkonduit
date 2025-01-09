@@ -93,7 +93,7 @@ ark-std = "0.4.0"
 getrandom = { version = "0.2", features = ["js"] }
 
 [features]
-default = ["batch", "bits", "derive_serde"]
+default = ["batch", "bits", "derive_serde", "icicle_gpu"]
 dev-graph = ["plotters", "tabbycat"]
 test-dev-graph = [
     "dev-graph",

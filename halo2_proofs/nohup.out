@@ -1,0 +1,164 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `bincode` dependency)
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `log` dependency)
+   Compiling halo2_proofs v0.3.0 (/root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.24s
+     Running `/root/autodl-tmp/yr/halo2_zkonduit/target/debug/examples/serialization`
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+Time: 12383.749315143s
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `bincode` dependency)
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `log` dependency)
+   Compiling halo2_proofs v0.3.0 (/root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.64s
+     Running `/root/autodl-tmp/yr/halo2_zkonduit/target/debug/examples/serialization`
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+Time: 773.994098172s
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `bincode` dependency)
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `log` dependency)
+   Compiling halo2_proofs v0.3.0 (/root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.46s
+     Running `/root/autodl-tmp/yr/halo2_zkonduit/target/debug/examples/serialization`
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_gpu
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_fft
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+icicle_gpu
+Time: 204.638074089s
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `bincode` dependency)
+warning: /root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs/Cargo.toml: `default_features` is deprecated in favor of `default-features` and will not work in the 2024 edition
+(in the `log` dependency)
+   Compiling halo2_proofs v0.3.0 (/root/autodl-tmp/yr/halo2_zkonduit/halo2_proofs)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.49s
+     Running `/root/autodl-tmp/yr/halo2_zkonduit/target/debug/examples/serialization`

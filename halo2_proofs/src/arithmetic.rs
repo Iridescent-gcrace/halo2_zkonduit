@@ -35,11 +35,14 @@ where
 pub fn best_multiexp<C: CurveAffine>(
     coeffs: &[C::Scalar], bases: &[C]
 ) -> C::Curve {
+    // println!("env: {:?}", env::var("ENABLE_ICICLE_GPU"));
+    // println!("icicle::should_use_cpu_msm: {:?}", icicle::should_use_cpu_msm(coeffs.len()));
     #[cfg(feature = "icicle_gpu")]
     if env::var("ENABLE_ICICLE_GPU").is_ok()
         && !icicle::should_use_cpu_msm(coeffs.len())
         && icicle::is_gpu_supported_field(&coeffs[0])
     {
+        println!("icicle_gpu");
         best_multiexp_gpu(coeffs, bases)
     } else {
         best_multiexp_cpu(coeffs, bases)
